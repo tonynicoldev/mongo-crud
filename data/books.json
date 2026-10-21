@@ -1,0 +1,87 @@
+
+[{
+  "_id": {
+    "$oid": "635ae2ae4f31ed7bbb70290c"
+  },
+  "author": "Jim Smith",
+  "title": "Top 100 Real Ale Pubs",
+  "pages": 20,
+  "key-words": [
+    "pub",
+    "real ale",
+    "camera"
+  ],
+  "rating": 3
+},{
+  "_id": {
+    "$oid": "635ae2ae4f31ed7bbb70290d"
+  },
+  "author": "Billy Loads a Money",
+  "title": "How to copy someone's GUI",
+  "pages": 100,
+  "key-words": [
+    "Windows",
+    "Apple",
+    "GUI"
+  ],
+  "rating": 2,
+  "reviews": [
+    {
+      "name": "Steve Jobs",
+      "comments": "See you in court"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "635aecf40fccd98b2c56c617"
+  },
+  "author": "Liz Truss",
+  "title": "Memoirs of a Prime Minister",
+  "pages": 1,
+  "key-words": [
+    "fail",
+    "deluded",
+    "cost",
+    "shortest"
+  ],
+  "rating": 1,
+  "reviews": [
+    {
+      "name": "Alan Sugar",
+      "comments": "You're fired"
+    },
+    {
+      "name": "Boris Johnson",
+      "comments": "I may have had a few beers but didn't wreck the economy"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "635af0ed67a4ddca2676676e"
+  },
+  "author": "Billy Loads a Money",
+  "title": "How to get users to test your code",
+  "pages": 121,
+  "key-words": [
+    "cost",
+    "fail",
+    "test",
+    "Windows",
+    "rob",
+    "con",
+    "rip off",
+    "joke",
+    "dodgy"
+  ],
+  "rating": -3,
+  "reviews": [
+    {
+      "name": "Tony Nicol",
+      "comments": "Aweful test approach. But I think I'll try it"
+    },
+    {
+      "name": "Nick Miller",
+      "comments": "OMG"
+    }
+  ]
+}]

@@ -1,0 +1,63 @@
+
+[
+  {
+    "item": "Laptop",
+    "make": "HP",
+    "model": "250 G9 15.6 inch display",
+    "price": 499.00
+  },
+  {
+    "item": "Laptop",
+    "make": "Dell",
+    "model": "Inspiron 14 7430",
+    "price": 679.00
+  },
+  {
+    "item": "Scanner",
+    "make": "Canon",
+    "model": "Image formula R40",
+    "price": 282.00
+  },
+  {
+    "item": "Phone",
+    "make": "Samsung",
+    "model": "Galaxy Z flip5",
+    "price": 1149.00
+  },
+  {
+    "item": "Printer",
+    "make": "HP",
+    "model": "Envy 6132e",
+    "price": 79.99
+  },
+  {
+    "item": "Printer",
+    "make": "Canon",
+    "model": "Pixma TS5351i",
+    "price": 59.99
+  },
+  {
+    "item": "Printer",
+    "make": "Epson",
+    "model": "Expression Home XP-2200",
+    "price": 49.99
+  },
+  {
+    "item": "Phone",
+    "make": "Apple",
+    "model": "iPhone Air",
+    "price": 999.00
+  },
+  {
+    "item": "Phone",
+    "make": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "price": 1124.00
+  },
+  {
+    "item": "Scanner",
+    "make": "Epson Perfection V39II",
+    "model": "Galaxy S25 Ultra",
+    "price": 109.99
+  }
+]

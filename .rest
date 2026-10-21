@@ -1,0 +1,63 @@
+### We need the 3 hashes to delineate requests.
+# Get all books
+GET http://localhost:3000/books
+
+### Specify author. Will find nearest match
+GET http://localhost:3000/books/bill
+
+
+### Add a new book. Note: blank line is needed before the body. No blank between post and content-type
+POST http://localhost:3000/book
+Content-Type: application/json
+
+{
+  "author": "Tony Nicol",
+  "title": "A big book about nothing",
+  "pages": 1000,
+  "keywords": ["stuff", "yada yada", "whatever"],
+  "reviews": [
+    {
+      "name": "Tony Nicol",
+      "comments": "Fantastic book. How does he do it?"
+    }
+  ]
+}
+
+
+### Specify author to get doc ID to update
+GET http://localhost:3000/books/tony
+
+
+### Partially update a document
+PATCH http://localhost:3000/book
+Content-Type: application/json
+
+{ "id": "6ad8e9e42b80208b91efbcb1",
+  "reviews": [{
+    "comments": "Wow! This is a must buy book"
+  }]
+}
+
+
+### PUT is used to replace all the contents but keep the document - i.e. the id
+# Not used much in REST these days
+PUT http://localhost:3000/book
+Content-Type: application/json
+
+{ "id": "6ad8e9e42b80208b91efbcb1",
+  "author": "Tony Nicol",
+  "title": "A big book about nothing",
+  "reviews": [
+    {
+      "name": "Tony Nicol",
+      "comments": "Fantastic book. How does he do it?"
+    }
+  ]
+}
+
+
+### delete the document based on id
+DELETE http://localhost:3000/book
+Content-Type: application/json
+
+{ "id": "6ad8ccd5943b2b77adf7884c" }
